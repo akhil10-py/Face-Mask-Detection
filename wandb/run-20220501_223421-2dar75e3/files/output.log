@@ -1,0 +1,51 @@
+Image Size: torch.Size([3, 224, 224])
+Label: face
+Face Label Images in Train Set: 3688
+Mask Label Images in Train Set: 3524
+Face Label Images in Validation Set: 922
+Mask Label Images in Validation Set: 882
+Confusion Matrix for Evaluation:
+[[82  0]
+ [46  0]]
+Confusion Matrix for Evaluation:
+[[62  0]
+ [66  0]]
+Confusion Matrix for Evaluation:
+[[69  0]
+ [59  0]]
+Confusion Matrix for Evaluation:
+[[69  0]
+ [59  0]]
+Confusion Matrix for Evaluation:
+[[63  0]
+ [65  0]]
+Confusion Matrix for Evaluation:
+[[70  0]
+ [58  0]]
+Confusion Matrix for Evaluation:
+[[53  0]
+ [75  0]]
+Confusion Matrix for Evaluation:
+[[62  0]
+ [66  0]]
+Confusion Matrix for Evaluation:
+[[62  0]
+ [66  0]]
+Confusion Matrix for Evaluation:
+[[65  0]
+ [63  0]]
+Confusion Matrix for Evaluation:
+[[67  0]
+ [61  0]]
+Confusion Matrix for Evaluation:
+[[64  0]
+ [64  0]]
+Confusion Matrix for Evaluation:
+[[58  0]
+ [70  0]]
+Confusion Matrix for Evaluation:
+[[72  0]
+ [56  0]]
+Confusion Matrix for Evaluation:
+[[4 0]
+ [8 0]]

@@ -1,0 +1,630 @@
+2022-05-01 17:05:30,813 INFO    MainThread:17172 [internal.py:wandb_internal():90] W&B internal server running at pid: 17172, started at: 2022-05-01 17:05:30.812779
+2022-05-01 17:05:30,816 INFO    WriterThread:17172 [datastore.py:open_for_write():75] open: c:\Users\Akhil\Desktop\Face-Mask-Detector-Using-CNN-master\Face-Mask-Detector-Using-CNN-master\wandb\run-20220501_170528-3a4w2bza\run-3a4w2bza.wandb
+2022-05-01 17:05:30,819 DEBUG   SenderThread:17172 [sender.py:send():232] send: header
+2022-05-01 17:05:30,819 DEBUG   SenderThread:17172 [sender.py:send():232] send: run
+2022-05-01 17:05:33,401 DEBUG   HandlerThread:17172 [handler.py:handle_request():141] handle_request: check_version
+2022-05-01 17:05:33,416 INFO    SenderThread:17172 [dir_watcher.py:__init__():166] watching files in: c:\Users\Akhil\Desktop\Face-Mask-Detector-Using-CNN-master\Face-Mask-Detector-Using-CNN-master\wandb\run-20220501_170528-3a4w2bza\files
+2022-05-01 17:05:33,416 INFO    SenderThread:17172 [sender.py:_start_run_threads():811] run started: 3a4w2bza with start time 1651404928
+2022-05-01 17:05:33,417 DEBUG   SenderThread:17172 [sender.py:send():232] send: summary
+2022-05-01 17:05:33,417 INFO    SenderThread:17172 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-05-01 17:05:33,418 DEBUG   SenderThread:17172 [sender.py:send_request():246] send_request: check_version
+2022-05-01 17:05:33,536 DEBUG   HandlerThread:17172 [handler.py:handle_request():141] handle_request: run_start
+2022-05-01 17:05:34,422 INFO    Thread-11 :17172 [dir_watcher.py:_on_file_created():213] file/dir created: c:\Users\Akhil\Desktop\Face-Mask-Detector-Using-CNN-master\Face-Mask-Detector-Using-CNN-master\wandb\run-20220501_170528-3a4w2bza\files\wandb-summary.json
+2022-05-01 17:05:39,467 INFO    Thread-11 :17172 [dir_watcher.py:_on_file_created():213] file/dir created: c:\Users\Akhil\Desktop\Face-Mask-Detector-Using-CNN-master\Face-Mask-Detector-Using-CNN-master\wandb\run-20220501_170528-3a4w2bza\files\output.log
+2022-05-01 17:05:42,356 DEBUG   HandlerThread:17172 [meta.py:__init__():35] meta init
+2022-05-01 17:05:42,357 DEBUG   HandlerThread:17172 [meta.py:__init__():49] meta init done
+2022-05-01 17:05:42,357 DEBUG   HandlerThread:17172 [meta.py:probe():209] probe
+2022-05-01 17:05:42,468 DEBUG   HandlerThread:17172 [git.py:repo():29] git repository is invalid
+2022-05-01 17:05:42,468 DEBUG   HandlerThread:17172 [meta.py:_save_pip():53] save pip
+2022-05-01 17:05:42,469 DEBUG   HandlerThread:17172 [meta.py:_save_pip():67] save pip done
+2022-05-01 17:05:42,471 DEBUG   HandlerThread:17172 [meta.py:probe():247] probe done
+2022-05-01 17:05:42,478 DEBUG   HandlerThread:17172 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-01 17:05:42,478 DEBUG   SenderThread:17172 [sender.py:send_request():246] send_request: stop_status
+2022-05-01 17:05:42,481 DEBUG   HandlerThread:17172 [handler.py:handle_request():141] handle_request: pause
+2022-05-01 17:05:42,481 INFO    HandlerThread:17172 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-05-01 17:05:42,497 INFO    Thread-11 :17172 [dir_watcher.py:_on_file_created():213] file/dir created: c:\Users\Akhil\Desktop\Face-Mask-Detector-Using-CNN-master\Face-Mask-Detector-Using-CNN-master\wandb\run-20220501_170528-3a4w2bza\files\wandb-metadata.json
+2022-05-01 17:05:42,497 INFO    Thread-11 :17172 [dir_watcher.py:_on_file_created():213] file/dir created: c:\Users\Akhil\Desktop\Face-Mask-Detector-Using-CNN-master\Face-Mask-Detector-Using-CNN-master\wandb\run-20220501_170528-3a4w2bza\files\requirements.txt
+2022-05-01 17:05:42,616 DEBUG   HandlerThread:17172 [handler.py:handle_request():141] handle_request: resume
+2022-05-01 17:05:42,616 INFO    HandlerThread:17172 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-05-01 17:05:42,639 DEBUG   HandlerThread:17172 [handler.py:handle_request():141] handle_request: pause
+2022-05-01 17:05:42,639 INFO    HandlerThread:17172 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-05-01 17:05:42,699 DEBUG   HandlerThread:17172 [handler.py:handle_request():141] handle_request: resume
+2022-05-01 17:05:42,700 INFO    HandlerThread:17172 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-05-01 17:05:42,701 DEBUG   HandlerThread:17172 [handler.py:handle_request():141] handle_request: pause
+2022-05-01 17:05:42,701 INFO    HandlerThread:17172 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-05-01 17:05:42,762 DEBUG   HandlerThread:17172 [handler.py:handle_request():141] handle_request: resume
+2022-05-01 17:05:42,762 INFO    HandlerThread:17172 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-05-01 17:05:42,809 DEBUG   SenderThread:17172 [sender.py:send():232] send: telemetry
+2022-05-01 17:05:42,809 DEBUG   SenderThread:17172 [sender.py:send():232] send: files
+2022-05-01 17:05:42,810 INFO    SenderThread:17172 [sender.py:_save_file():946] saving file wandb-metadata.json with policy now
+2022-05-01 17:05:42,810 DEBUG   SenderThread:17172 [sender.py:send():232] send: stats
+2022-05-01 17:05:42,810 DEBUG   SenderThread:17172 [sender.py:send():232] send: stats
+2022-05-01 17:05:42,810 DEBUG   SenderThread:17172 [sender.py:send():232] send: stats
+2022-05-01 17:05:43,781 INFO    Thread-18 :17172 [upload_job.py:push():137] Uploaded file C:\Users\Akhil\AppData\Local\Temp\tmprk3dzvyswandb\h5iqzofj-wandb-metadata.json
+2022-05-01 17:05:57,817 DEBUG   HandlerThread:17172 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-01 17:05:57,817 DEBUG   SenderThread:17172 [sender.py:send_request():246] send_request: stop_status
+2022-05-01 17:06:04,720 INFO    Thread-11 :17172 [dir_watcher.py:_on_file_modified():226] file/dir modified: c:\Users\Akhil\Desktop\Face-Mask-Detector-Using-CNN-master\Face-Mask-Detector-Using-CNN-master\wandb\run-20220501_170528-3a4w2bza\files\config.yaml
+2022-05-01 17:06:13,149 DEBUG   HandlerThread:17172 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-01 17:06:13,149 DEBUG   SenderThread:17172 [sender.py:send_request():246] send_request: stop_status
+2022-05-01 17:06:14,451 DEBUG   SenderThread:17172 [sender.py:send():232] send: stats
+2022-05-01 17:06:28,505 DEBUG   HandlerThread:17172 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-01 17:06:28,505 DEBUG   SenderThread:17172 [sender.py:send_request():246] send_request: stop_status
+2022-05-01 17:06:43,897 DEBUG   HandlerThread:17172 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-01 17:06:43,898 DEBUG   SenderThread:17172 [sender.py:send_request():246] send_request: stop_status
+2022-05-01 17:06:48,289 DEBUG   SenderThread:17172 [sender.py:send():232] send: stats
+2022-05-01 17:06:59,270 DEBUG   HandlerThread:17172 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-01 17:06:59,271 DEBUG   SenderThread:17172 [sender.py:send_request():246] send_request: stop_status
+2022-05-01 17:07:13,303 INFO    Thread-11 :17172 [dir_watcher.py:_on_file_modified():226] file/dir modified: c:\Users\Akhil\Desktop\Face-Mask-Detector-Using-CNN-master\Face-Mask-Detector-Using-CNN-master\wandb\run-20220501_170528-3a4w2bza\files\output.log
+2022-05-01 17:07:14,606 DEBUG   HandlerThread:17172 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-01 17:07:14,607 DEBUG   SenderThread:17172 [sender.py:send_request():246] send_request: stop_status
+2022-05-01 17:07:15,325 INFO    Thread-11 :17172 [dir_watcher.py:_on_file_modified():226] file/dir modified: c:\Users\Akhil\Desktop\Face-Mask-Detector-Using-CNN-master\Face-Mask-Detector-Using-CNN-master\wandb\run-20220501_170528-3a4w2bza\files\output.log
+2022-05-01 17:07:17,331 INFO    Thread-11 :17172 [dir_watcher.py:_on_file_modified():226] file/dir modified: c:\Users\Akhil\Desktop\Face-Mask-Detector-Using-CNN-master\Face-Mask-Detector-Using-CNN-master\wandb\run-20220501_170528-3a4w2bza\files\output.log
+2022-05-01 17:07:19,355 INFO    Thread-11 :17172 [dir_watcher.py:_on_file_modified():226] file/dir modified: c:\Users\Akhil\Desktop\Face-Mask-Detector-Using-CNN-master\Face-Mask-Detector-Using-CNN-master\wandb\run-20220501_170528-3a4w2bza\files\output.log
+2022-05-01 17:07:21,365 INFO    Thread-11 :17172 [dir_watcher.py:_on_file_modified():226] file/dir modified: c:\Users\Akhil\Desktop\Face-Mask-Detector-Using-CNN-master\Face-Mask-Detector-Using-CNN-master\wandb\run-20220501_170528-3a4w2bza\files\output.log
+2022-05-01 17:07:22,298 DEBUG   SenderThread:17172 [sender.py:send():232] send: stats
+2022-05-01 17:07:23,396 INFO    Thread-11 :17172 [dir_watcher.py:_on_file_modified():226] file/dir modified: c:\Users\Akhil\Desktop\Face-Mask-Detector-Using-CNN-master\Face-Mask-Detector-Using-CNN-master\wandb\run-20220501_170528-3a4w2bza\files\output.log
+2022-05-01 17:07:25,419 INFO    Thread-11 :17172 [dir_watcher.py:_on_file_modified():226] file/dir modified: c:\Users\Akhil\Desktop\Face-Mask-Detector-Using-CNN-master\Face-Mask-Detector-Using-CNN-master\wandb\run-20220501_170528-3a4w2bza\files\output.log
+2022-05-01 17:07:29,958 DEBUG   HandlerThread:17172 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-01 17:07:29,958 DEBUG   SenderThread:17172 [sender.py:send_request():246] send_request: stop_status
+2022-05-01 17:07:45,331 DEBUG   HandlerThread:17172 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-01 17:07:45,331 DEBUG   SenderThread:17172 [sender.py:send_request():246] send_request: stop_status
+2022-05-01 17:07:56,408 DEBUG   SenderThread:17172 [sender.py:send():232] send: stats
+2022-05-01 17:08:00,722 DEBUG   HandlerThread:17172 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-01 17:08:00,723 DEBUG   SenderThread:17172 [sender.py:send_request():246] send_request: stop_status
+2022-05-01 17:08:16,102 DEBUG   HandlerThread:17172 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-01 17:08:16,103 DEBUG   SenderThread:17172 [sender.py:send_request():246] send_request: stop_status
+2022-05-01 17:08:30,465 DEBUG   SenderThread:17172 [sender.py:send():232] send: stats
+2022-05-01 17:08:31,483 DEBUG   HandlerThread:17172 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-01 17:08:31,484 DEBUG   SenderThread:17172 [sender.py:send_request():246] send_request: stop_status
+2022-05-01 17:08:46,861 DEBUG   HandlerThread:17172 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-01 17:08:46,862 DEBUG   SenderThread:17172 [sender.py:send_request():246] send_request: stop_status
+2022-05-01 17:08:58,341 INFO    Thread-11 :17172 [dir_watcher.py:_on_file_modified():226] file/dir modified: c:\Users\Akhil\Desktop\Face-Mask-Detector-Using-CNN-master\Face-Mask-Detector-Using-CNN-master\wandb\run-20220501_170528-3a4w2bza\files\output.log
+2022-05-01 17:09:00,363 INFO    Thread-11 :17172 [dir_watcher.py:_on_file_modified():226] file/dir modified: c:\Users\Akhil\Desktop\Face-Mask-Detector-Using-CNN-master\Face-Mask-Detector-Using-CNN-master\wandb\run-20220501_170528-3a4w2bza\files\output.log
+2022-05-01 17:09:02,273 DEBUG   HandlerThread:17172 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-01 17:09:02,273 DEBUG   SenderThread:17172 [sender.py:send_request():246] send_request: stop_status
+2022-05-01 17:09:02,389 INFO    Thread-11 :17172 [dir_watcher.py:_on_file_modified():226] file/dir modified: c:\Users\Akhil\Desktop\Face-Mask-Detector-Using-CNN-master\Face-Mask-Detector-Using-CNN-master\wandb\run-20220501_170528-3a4w2bza\files\output.log
+2022-05-01 17:09:04,435 INFO    Thread-11 :17172 [dir_watcher.py:_on_file_modified():226] file/dir modified: c:\Users\Akhil\Desktop\Face-Mask-Detector-Using-CNN-master\Face-Mask-Detector-Using-CNN-master\wandb\run-20220501_170528-3a4w2bza\files\output.log
+2022-05-01 17:09:04,477 DEBUG   SenderThread:17172 [sender.py:send():232] send: stats
+2022-05-01 17:09:06,450 INFO    Thread-11 :17172 [dir_watcher.py:_on_file_modified():226] file/dir modified: c:\Users\Akhil\Desktop\Face-Mask-Detector-Using-CNN-master\Face-Mask-Detector-Using-CNN-master\wandb\run-20220501_170528-3a4w2bza\files\output.log
+2022-05-01 17:09:08,472 INFO    Thread-11 :17172 [dir_watcher.py:_on_file_modified():226] file/dir modified: c:\Users\Akhil\Desktop\Face-Mask-Detector-Using-CNN-master\Face-Mask-Detector-Using-CNN-master\wandb\run-20220501_170528-3a4w2bza\files\output.log
+2022-05-01 17:09:17,634 DEBUG   HandlerThread:17172 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-01 17:09:17,635 DEBUG   SenderThread:17172 [sender.py:send_request():246] send_request: stop_status
+2022-05-01 17:09:33,058 DEBUG   HandlerThread:17172 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-01 17:09:33,059 DEBUG   SenderThread:17172 [sender.py:send_request():246] send_request: stop_status
+2022-05-01 17:09:38,449 DEBUG   SenderThread:17172 [sender.py:send():232] send: stats
+2022-05-01 17:09:48,461 DEBUG   HandlerThread:17172 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-01 17:09:48,462 DEBUG   SenderThread:17172 [sender.py:send_request():246] send_request: stop_status
+2022-05-01 17:10:03,828 DEBUG   HandlerThread:17172 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-01 17:10:03,828 DEBUG   SenderThread:17172 [sender.py:send_request():246] send_request: stop_status
+2022-05-01 17:10:12,928 DEBUG   SenderThread:17172 [sender.py:send():232] send: stats
+2022-05-01 17:10:19,174 DEBUG   HandlerThread:17172 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-01 17:10:19,175 DEBUG   SenderThread:17172 [sender.py:send_request():246] send_request: stop_status
+2022-05-01 17:10:34,548 DEBUG   HandlerThread:17172 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-01 17:10:34,549 DEBUG   SenderThread:17172 [sender.py:send_request():246] send_request: stop_status
+2022-05-01 17:10:42,393 INFO    Thread-11 :17172 [dir_watcher.py:_on_file_modified():226] file/dir modified: c:\Users\Akhil\Desktop\Face-Mask-Detector-Using-CNN-master\Face-Mask-Detector-Using-CNN-master\wandb\run-20220501_170528-3a4w2bza\files\output.log
+2022-05-01 17:10:44,403 INFO    Thread-11 :17172 [dir_watcher.py:_on_file_modified():226] file/dir modified: c:\Users\Akhil\Desktop\Face-Mask-Detector-Using-CNN-master\Face-Mask-Detector-Using-CNN-master\wandb\run-20220501_170528-3a4w2bza\files\output.log
+2022-05-01 17:10:46,429 INFO    Thread-11 :17172 [dir_watcher.py:_on_file_modified():226] file/dir modified: c:\Users\Akhil\Desktop\Face-Mask-Detector-Using-CNN-master\Face-Mask-Detector-Using-CNN-master\wandb\run-20220501_170528-3a4w2bza\files\output.log
+2022-05-01 17:10:47,040 DEBUG   SenderThread:17172 [sender.py:send():232] send: stats
+2022-05-01 17:10:48,449 INFO    Thread-11 :17172 [dir_watcher.py:_on_file_modified():226] file/dir modified: c:\Users\Akhil\Desktop\Face-Mask-Detector-Using-CNN-master\Face-Mask-Detector-Using-CNN-master\wandb\run-20220501_170528-3a4w2bza\files\output.log
+2022-05-01 17:10:49,874 DEBUG   HandlerThread:17172 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-01 17:10:49,875 DEBUG   SenderThread:17172 [sender.py:send_request():246] send_request: stop_status
+2022-05-01 17:10:50,468 INFO    Thread-11 :17172 [dir_watcher.py:_on_file_modified():226] file/dir modified: c:\Users\Akhil\Desktop\Face-Mask-Detector-Using-CNN-master\Face-Mask-Detector-Using-CNN-master\wandb\run-20220501_170528-3a4w2bza\files\output.log
+2022-05-01 17:10:52,484 INFO    Thread-11 :17172 [dir_watcher.py:_on_file_modified():226] file/dir modified: c:\Users\Akhil\Desktop\Face-Mask-Detector-Using-CNN-master\Face-Mask-Detector-Using-CNN-master\wandb\run-20220501_170528-3a4w2bza\files\output.log
+2022-05-01 17:11:05,235 DEBUG   HandlerThread:17172 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-01 17:11:05,236 DEBUG   SenderThread:17172 [sender.py:send_request():246] send_request: stop_status
+2022-05-01 17:11:20,591 DEBUG   HandlerThread:17172 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-01 17:11:20,591 DEBUG   SenderThread:17172 [sender.py:send_request():246] send_request: stop_status
+2022-05-01 17:11:20,978 DEBUG   SenderThread:17172 [sender.py:send():232] send: stats
+2022-05-01 17:11:35,986 DEBUG   HandlerThread:17172 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-01 17:11:35,987 DEBUG   SenderThread:17172 [sender.py:send_request():246] send_request: stop_status
+2022-05-01 17:11:51,342 DEBUG   HandlerThread:17172 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-01 17:11:51,343 DEBUG   SenderThread:17172 [sender.py:send_request():246] send_request: stop_status
+2022-05-01 17:11:54,560 DEBUG   SenderThread:17172 [sender.py:send():232] send: stats
+2022-05-01 17:12:06,726 DEBUG   HandlerThread:17172 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-01 17:12:06,726 DEBUG   SenderThread:17172 [sender.py:send_request():246] send_request: stop_status
+2022-05-01 17:12:22,148 DEBUG   HandlerThread:17172 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-01 17:12:22,148 DEBUG   SenderThread:17172 [sender.py:send_request():246] send_request: stop_status
+2022-05-01 17:12:27,310 INFO    Thread-11 :17172 [dir_watcher.py:_on_file_modified():226] file/dir modified: c:\Users\Akhil\Desktop\Face-Mask-Detector-Using-CNN-master\Face-Mask-Detector-Using-CNN-master\wandb\run-20220501_170528-3a4w2bza\files\output.log
+2022-05-01 17:12:28,322 DEBUG   SenderThread:17172 [sender.py:send():232] send: stats
+2022-05-01 17:12:29,328 INFO    Thread-11 :17172 [dir_watcher.py:_on_file_modified():226] file/dir modified: c:\Users\Akhil\Desktop\Face-Mask-Detector-Using-CNN-master\Face-Mask-Detector-Using-CNN-master\wandb\run-20220501_170528-3a4w2bza\files\output.log
+2022-05-01 17:12:31,367 INFO    Thread-11 :17172 [dir_watcher.py:_on_file_modified():226] file/dir modified: c:\Users\Akhil\Desktop\Face-Mask-Detector-Using-CNN-master\Face-Mask-Detector-Using-CNN-master\wandb\run-20220501_170528-3a4w2bza\files\output.log
+2022-05-01 17:12:33,371 INFO    Thread-11 :17172 [dir_watcher.py:_on_file_modified():226] file/dir modified: c:\Users\Akhil\Desktop\Face-Mask-Detector-Using-CNN-master\Face-Mask-Detector-Using-CNN-master\wandb\run-20220501_170528-3a4w2bza\files\output.log
+2022-05-01 17:12:35,398 INFO    Thread-11 :17172 [dir_watcher.py:_on_file_modified():226] file/dir modified: c:\Users\Akhil\Desktop\Face-Mask-Detector-Using-CNN-master\Face-Mask-Detector-Using-CNN-master\wandb\run-20220501_170528-3a4w2bza\files\output.log
+2022-05-01 17:12:35,477 DEBUG   HandlerThread:17172 [handler.py:handle_request():141] handle_request: pause
+2022-05-01 17:12:35,477 INFO    HandlerThread:17172 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-05-01 17:12:35,550 DEBUG   HandlerThread:17172 [handler.py:handle_request():141] handle_request: resume
+2022-05-01 17:12:35,550 INFO    HandlerThread:17172 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-05-01 17:12:35,551 DEBUG   HandlerThread:17172 [handler.py:handle_request():141] handle_request: pause
+2022-05-01 17:12:35,551 INFO    HandlerThread:17172 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-05-01 17:12:35,637 DEBUG   SenderThread:17172 [sender.py:send():232] send: stats
+2022-05-01 17:12:35,638 DEBUG   HandlerThread:17172 [handler.py:handle_request():141] handle_request: resume
+2022-05-01 17:12:35,638 INFO    HandlerThread:17172 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-05-01 17:12:35,639 DEBUG   SenderThread:17172 [sender.py:send():232] send: stats
+2022-05-01 17:12:37,418 INFO    Thread-11 :17172 [dir_watcher.py:_on_file_modified():226] file/dir modified: c:\Users\Akhil\Desktop\Face-Mask-Detector-Using-CNN-master\Face-Mask-Detector-Using-CNN-master\wandb\run-20220501_170528-3a4w2bza\files\output.log
+2022-05-01 17:12:37,497 DEBUG   HandlerThread:17172 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-01 17:12:37,498 DEBUG   SenderThread:17172 [sender.py:send_request():246] send_request: stop_status
+2022-05-01 17:12:52,893 DEBUG   HandlerThread:17172 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-01 17:12:52,894 DEBUG   SenderThread:17172 [sender.py:send_request():246] send_request: stop_status
+2022-05-01 17:13:07,074 DEBUG   SenderThread:17172 [sender.py:send():232] send: stats
+2022-05-01 17:13:08,235 DEBUG   HandlerThread:17172 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-01 17:13:08,235 DEBUG   SenderThread:17172 [sender.py:send_request():246] send_request: stop_status
+2022-05-01 17:13:23,568 DEBUG   HandlerThread:17172 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-01 17:13:23,568 DEBUG   SenderThread:17172 [sender.py:send_request():246] send_request: stop_status
+2022-05-01 17:13:38,914 DEBUG   HandlerThread:17172 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-01 17:13:38,914 DEBUG   SenderThread:17172 [sender.py:send_request():246] send_request: stop_status
+2022-05-01 17:13:40,598 DEBUG   SenderThread:17172 [sender.py:send():232] send: stats
+2022-05-01 17:13:54,274 DEBUG   HandlerThread:17172 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-01 17:13:54,274 DEBUG   SenderThread:17172 [sender.py:send_request():246] send_request: stop_status
+2022-05-01 17:14:09,635 DEBUG   HandlerThread:17172 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-01 17:14:09,635 DEBUG   SenderThread:17172 [sender.py:send_request():246] send_request: stop_status
+2022-05-01 17:14:11,286 INFO    Thread-11 :17172 [dir_watcher.py:_on_file_modified():226] file/dir modified: c:\Users\Akhil\Desktop\Face-Mask-Detector-Using-CNN-master\Face-Mask-Detector-Using-CNN-master\wandb\run-20220501_170528-3a4w2bza\files\output.log
+2022-05-01 17:14:13,300 INFO    Thread-11 :17172 [dir_watcher.py:_on_file_modified():226] file/dir modified: c:\Users\Akhil\Desktop\Face-Mask-Detector-Using-CNN-master\Face-Mask-Detector-Using-CNN-master\wandb\run-20220501_170528-3a4w2bza\files\output.log
+2022-05-01 17:14:14,052 DEBUG   SenderThread:17172 [sender.py:send():232] send: stats
+2022-05-01 17:14:15,327 INFO    Thread-11 :17172 [dir_watcher.py:_on_file_modified():226] file/dir modified: c:\Users\Akhil\Desktop\Face-Mask-Detector-Using-CNN-master\Face-Mask-Detector-Using-CNN-master\wandb\run-20220501_170528-3a4w2bza\files\output.log
+2022-05-01 17:14:17,347 INFO    Thread-11 :17172 [dir_watcher.py:_on_file_modified():226] file/dir modified: c:\Users\Akhil\Desktop\Face-Mask-Detector-Using-CNN-master\Face-Mask-Detector-Using-CNN-master\wandb\run-20220501_170528-3a4w2bza\files\output.log
+2022-05-01 17:14:19,372 INFO    Thread-11 :17172 [dir_watcher.py:_on_file_modified():226] file/dir modified: c:\Users\Akhil\Desktop\Face-Mask-Detector-Using-CNN-master\Face-Mask-Detector-Using-CNN-master\wandb\run-20220501_170528-3a4w2bza\files\output.log
+2022-05-01 17:14:21,395 INFO    Thread-11 :17172 [dir_watcher.py:_on_file_modified():226] file/dir modified: c:\Users\Akhil\Desktop\Face-Mask-Detector-Using-CNN-master\Face-Mask-Detector-Using-CNN-master\wandb\run-20220501_170528-3a4w2bza\files\output.log
+2022-05-01 17:14:24,984 DEBUG   HandlerThread:17172 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-01 17:14:24,985 DEBUG   SenderThread:17172 [sender.py:send_request():246] send_request: stop_status
+2022-05-01 17:14:40,332 DEBUG   HandlerThread:17172 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-01 17:14:40,333 DEBUG   SenderThread:17172 [sender.py:send_request():246] send_request: stop_status
+2022-05-01 17:15:00,350 DEBUG   HandlerThread:17172 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-01 17:15:14,042 ERROR   SenderThread:17172 [retry.py:__call__():126] Retry attempt failed:
+Traceback (most recent call last):
+  File "C:\Users\Akhil\AppData\Local\Programs\Python\Python310\lib\site-packages\urllib3\connectionpool.py", line 449, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "C:\Users\Akhil\AppData\Local\Programs\Python\Python310\lib\site-packages\urllib3\connectionpool.py", line 444, in _make_request
+    httplib_response = conn.getresponse()
+  File "C:\Users\Akhil\AppData\Local\Programs\Python\Python310\lib\http\client.py", line 1374, in getresponse
+    response.begin()
+  File "C:\Users\Akhil\AppData\Local\Programs\Python\Python310\lib\http\client.py", line 318, in begin
+    version, status, reason = self._read_status()
+  File "C:\Users\Akhil\AppData\Local\Programs\Python\Python310\lib\http\client.py", line 279, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "C:\Users\Akhil\AppData\Local\Programs\Python\Python310\lib\socket.py", line 705, in readinto
+    return self._sock.recv_into(b)
+  File "C:\Users\Akhil\AppData\Local\Programs\Python\Python310\lib\ssl.py", line 1273, in recv_into
+    return self.read(nbytes, buffer)
+  File "C:\Users\Akhil\AppData\Local\Programs\Python\Python310\lib\ssl.py", line 1129, in read
+    return self._sslobj.read(len, buffer)
+TimeoutError: The read operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Akhil\AppData\Local\Programs\Python\Python310\lib\site-packages\requests\adapters.py", line 440, in send
+    resp = conn.urlopen(
+  File "C:\Users\Akhil\AppData\Local\Programs\Python\Python310\lib\site-packages\urllib3\connectionpool.py", line 785, in urlopen
+    retries = retries.increment(
+  File "C:\Users\Akhil\AppData\Local\Programs\Python\Python310\lib\site-packages\urllib3\util\retry.py", line 550, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "C:\Users\Akhil\AppData\Local\Programs\Python\Python310\lib\site-packages\urllib3\packages\six.py", line 770, in reraise
+    raise value
+  File "C:\Users\Akhil\AppData\Local\Programs\Python\Python310\lib\site-packages\urllib3\connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "C:\Users\Akhil\AppData\Local\Programs\Python\Python310\lib\site-packages\urllib3\connectionpool.py", line 451, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=read_timeout)
+  File "C:\Users\Akhil\AppData\Local\Programs\Python\Python310\lib\site-packages\urllib3\connectionpool.py", line 340, in _raise_timeout
+    raise ReadTimeoutError(
+urllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='api.wandb.ai', port=443): Read timed out. (read timeout=10)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Akhil\AppData\Local\Programs\Python\Python310\lib\site-packages\wandb\sdk\lib\retry.py", line 102, in __call__
+    result = self._call_fn(*args, **kwargs)
+  File "C:\Users\Akhil\AppData\Local\Programs\Python\Python310\lib\site-packages\wandb\sdk\internal\internal_api.py", line 140, in execute
+    return self.client.execute(*args, **kwargs)
+  File "C:\Users\Akhil\AppData\Local\Programs\Python\Python310\lib\site-packages\wandb\vendor\gql-0.2.0\wandb_gql\client.py", line 52, in execute
+    result = self._get_result(document, *args, **kwargs)
+  File "C:\Users\Akhil\AppData\Local\Programs\Python\Python310\lib\site-packages\wandb\vendor\gql-0.2.0\wandb_gql\client.py", line 60, in _get_result
+    return self.transport.execute(document, *args, **kwargs)
+  File "C:\Users\Akhil\AppData\Local\Programs\Python\Python310\lib\site-packages\wandb\vendor\gql-0.2.0\wandb_gql\transport\requests.py", line 38, in execute
+    request = requests.post(self.url, **post_args)
+  File "C:\Users\Akhil\AppData\Local\Programs\Python\Python310\lib\site-packages\requests\api.py", line 117, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "C:\Users\Akhil\AppData\Local\Programs\Python\Python310\lib\site-packages\requests\api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Users\Akhil\AppData\Local\Programs\Python\Python310\lib\site-packages\requests\sessions.py", line 529, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\Akhil\AppData\Local\Programs\Python\Python310\lib\site-packages\requests\sessions.py", line 645, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\Akhil\AppData\Local\Programs\Python\Python310\lib\site-packages\requests\adapters.py", line 532, in send
+    raise ReadTimeout(e, request=request)
+requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='api.wandb.ai', port=443): Read timed out. (read timeout=10)
+2022-05-01 17:15:20,361 DEBUG   HandlerThread:17172 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-01 17:15:38,831 WARNING FileStreamThread:17172 [file_stream.py:request_with_retry():593] requests_with_retry encountered retryable exception: 500 Server Error: Internal Server Error for url: https://api.wandb.ai/files/akhil007/FaceMaskDetector/3a4w2bza/file_stream. func: <bound method Session.post of <requests.sessions.Session object at 0x0000022FD30DC790>>, args: ('https://api.wandb.ai/files/akhil007/FaceMaskDetector/3a4w2bza/file_stream',), kwargs: {'json': {'files': {'wandb-events.jsonl': {'offset': 19, 'content': ['{"system.gpu.0.gpu": 99.67, "system.gpu.0.memory": 89.6, "system.gpu.0.memoryAllocated": 72.01, "system.gpu.0.temp": 60.0, "system.gpu.process.0.gpu": 99.67, "system.gpu.process.0.memory": 89.6, "system.gpu.process.0.memoryAllocated": 72.01, "system.gpu.process.0.temp": 60.0, "system.cpu": 18.56, "system.memory": 90.47, "system.disk": 90.1, "system.proc.memory.availableMB": 763.38, "system.proc.memory.rssMB": 288.32, "system.proc.memory.percent": 3.6, "system.proc.cpu.threads": 29.0, "system.network.sent": 820177, "system.network.recv": 2780864, "_wandb": true, "_timestamp": 1651405454, "_runtime": 526}']}, 'output.log': {'offset': 184, 'content': ['2022-05-01T11:44:11.030882 Confusion Matrix for Evaluation:\n', '2022-05-01T11:44:11.030882 [[70  4]\n', '2022-05-01T11:44:11.030882  [ 2 52]]\n', '2022-05-01T11:44:11.030882 Confusion Matrix for Evaluation:\n', '2022-05-01T11:44:11.030882 [[54  3]\n', '2022-05-01T11:44:11.030882  [ 1 70]]\n', '2022-05-01T11:44:13.045841 Confusion Matrix for Evaluation:\n', '2022-05-01T11:44:13.045841 [[60  3]\n', '2022-05-01T11:44:13.045841  [ 1 64]]\n', '2022-05-01T11:44:13.045841 Confusion Matrix for Evaluation:\n', '2022-05-01T11:44:13.045841 [[67  3]\n', '2022-05-01T11:44:13.045841  [ 1 57]]\n', '2022-05-01T11:44:15.057047 Confusion Matrix for Evaluation:\n', '2022-05-01T11:44:15.057047 [[65  2]\n', '2022-05-01T11:44:15.057047  [ 1 60]]\n', '2022-05-01T11:44:15.057047 Confusion Matrix for Evaluation:\n', '2022-05-01T11:44:15.057047 [[68  6]\n', '2022-05-01T11:44:15.057047  [ 0 54]]\n', '2022-05-01T11:44:15.057047 Confusion Matrix for Evaluation:\n', '2022-05-01T11:44:15.057047 [[53  7]\n', '2022-05-01T11:44:15.057047  [ 4 64]]\n', '2022-05-01T11:44:17.074838 Confusion Matrix for Evaluation:\n', '2022-05-01T11:44:17.074838 [[61  5]\n', '2022-05-01T11:44:17.074838  [ 1 61]]\n', '2022-05-01T11:44:17.074838 Confusion Matrix for Evaluation:\n', '2022-05-01T11:44:17.074838 [[64  1]\n', '2022-05-01T11:44:17.074838  [ 1 62]]\n', '2022-05-01T11:44:19.083575 Confusion Matrix for Evaluation:\n', '2022-05-01T11:44:19.083575 [[52  5]\n', '2022-05-01T11:44:19.083575  [ 3 68]]\n', '2022-05-01T11:44:19.083575 Confusion Matrix for Evaluation:\n', '2022-05-01T11:44:19.083575 [[61  3]\n', '2022-05-01T11:44:19.083575  [ 1 63]]\n', '2022-05-01T11:44:19.083575 Confusion Matrix for Evaluation:\n', '2022-05-01T11:44:19.083575 [[64  4]\n', '2022-05-01T11:44:19.083575  [ 3 57]]\n', '2022-05-01T11:44:21.090523 Confusion Matrix for Evaluation:\n', '2022-05-01T11:44:21.090523 [[56  6]\n', '2022-05-01T11:44:21.090523  [ 4 62]]\n', '2022-05-01T11:44:21.090523 Confusion Matrix for Evaluation:\n', '2022-05-01T11:44:21.090523 [[66  3]\n', '2022-05-01T11:44:21.090523  [ 0 59]]\n', '2022-05-01T11:44:21.090523 Confusion Matrix for Evaluation:\n', '2022-05-01T11:44:21.090523 [[6 0]\n', '2022-05-01T11:44:21.090523  [0 6]]\n', '2022-05-01T11:44:21.090523 Epoch 0: train_loss: 0.1301 val_loss: 0.1073 val_score: 0.9594 precision: 0.9593750238418579\n']}}, 'dropped': 0}}
+2022-05-01 17:15:40,377 DEBUG   HandlerThread:17172 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-01 17:15:43,034 DEBUG   SenderThread:17172 [sender.py:send():232] send: stats
+2022-05-01 17:15:43,034 DEBUG   SenderThread:17172 [sender.py:send_request():246] send_request: stop_status
+2022-05-01 17:15:44,114 INFO    Thread-11 :17172 [dir_watcher.py:_on_file_modified():226] file/dir modified: c:\Users\Akhil\Desktop\Face-Mask-Detector-Using-CNN-master\Face-Mask-Detector-Using-CNN-master\wandb\run-20220501_170528-3a4w2bza\files\output.log
+2022-05-01 17:15:46,130 INFO    Thread-11 :17172 [dir_watcher.py:_on_file_modified():226] file/dir modified: c:\Users\Akhil\Desktop\Face-Mask-Detector-Using-CNN-master\Face-Mask-Detector-Using-CNN-master\wandb\run-20220501_170528-3a4w2bza\files\output.log
+2022-05-01 17:15:48,153 INFO    Thread-11 :17172 [dir_watcher.py:_on_file_modified():226] file/dir modified: c:\Users\Akhil\Desktop\Face-Mask-Detector-Using-CNN-master\Face-Mask-Detector-Using-CNN-master\wandb\run-20220501_170528-3a4w2bza\files\output.log
+2022-05-01 17:15:49,818 DEBUG   SenderThread:17172 [sender.py:send_request():246] send_request: stop_status
+2022-05-01 17:15:50,169 INFO    Thread-11 :17172 [dir_watcher.py:_on_file_modified():226] file/dir modified: c:\Users\Akhil\Desktop\Face-Mask-Detector-Using-CNN-master\Face-Mask-Detector-Using-CNN-master\wandb\run-20220501_170528-3a4w2bza\files\output.log
+2022-05-01 17:15:51,803 DEBUG   SenderThread:17172 [sender.py:send():232] send: stats
+2022-05-01 17:15:51,803 DEBUG   SenderThread:17172 [sender.py:send_request():246] send_request: stop_status
+2022-05-01 17:15:52,184 INFO    Thread-11 :17172 [dir_watcher.py:_on_file_modified():226] file/dir modified: c:\Users\Akhil\Desktop\Face-Mask-Detector-Using-CNN-master\Face-Mask-Detector-Using-CNN-master\wandb\run-20220501_170528-3a4w2bza\files\output.log
+2022-05-01 17:15:52,235 DEBUG   HandlerThread:17172 [handler.py:handle_request():141] handle_request: pause
+2022-05-01 17:15:52,235 INFO    HandlerThread:17172 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-05-01 17:15:52,316 DEBUG   HandlerThread:17172 [handler.py:handle_request():141] handle_request: resume
+2022-05-01 17:15:52,317 INFO    HandlerThread:17172 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-05-01 17:15:52,318 DEBUG   HandlerThread:17172 [handler.py:handle_request():141] handle_request: pause
+2022-05-01 17:15:52,318 INFO    HandlerThread:17172 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-05-01 17:15:52,388 DEBUG   HandlerThread:17172 [handler.py:handle_request():141] handle_request: resume
+2022-05-01 17:15:52,388 INFO    HandlerThread:17172 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-05-01 17:15:53,802 DEBUG   SenderThread:17172 [sender.py:send():232] send: stats
+2022-05-01 17:15:53,802 DEBUG   SenderThread:17172 [sender.py:send():232] send: stats
+2022-05-01 17:15:54,212 INFO    Thread-11 :17172 [dir_watcher.py:_on_file_modified():226] file/dir modified: c:\Users\Akhil\Desktop\Face-Mask-Detector-Using-CNN-master\Face-Mask-Detector-Using-CNN-master\wandb\run-20220501_170528-3a4w2bza\files\output.log
+2022-05-01 17:15:55,458 DEBUG   HandlerThread:17172 [handler.py:handle_request():141] handle_request: pause
+2022-05-01 17:15:55,459 INFO    HandlerThread:17172 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-05-01 17:15:55,541 DEBUG   SenderThread:17172 [sender.py:send():232] send: stats
+2022-05-01 17:16:00,392 DEBUG   HandlerThread:17172 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-01 17:16:00,392 DEBUG   SenderThread:17172 [sender.py:send_request():246] send_request: stop_status
+2022-05-01 17:16:17,202 DEBUG   HandlerThread:17172 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-01 17:16:17,202 DEBUG   SenderThread:17172 [sender.py:send_request():246] send_request: stop_status
+2022-05-01 17:16:32,601 DEBUG   HandlerThread:17172 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-01 17:16:32,601 DEBUG   SenderThread:17172 [sender.py:send_request():246] send_request: stop_status
+2022-05-01 17:16:47,988 DEBUG   HandlerThread:17172 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-01 17:16:47,988 DEBUG   SenderThread:17172 [sender.py:send_request():246] send_request: stop_status
+2022-05-01 17:17:03,351 DEBUG   HandlerThread:17172 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-01 17:17:03,352 DEBUG   SenderThread:17172 [sender.py:send_request():246] send_request: stop_status
+2022-05-01 17:17:18,703 DEBUG   HandlerThread:17172 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-01 17:17:18,703 DEBUG   SenderThread:17172 [sender.py:send_request():246] send_request: stop_status
+2022-05-01 17:17:22,131 ERROR   SenderThread:17172 [retry.py:__call__():126] Retry attempt failed:
+Traceback (most recent call last):
+  File "C:\Users\Akhil\AppData\Local\Programs\Python\Python310\lib\site-packages\urllib3\connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "C:\Users\Akhil\AppData\Local\Programs\Python\Python310\lib\site-packages\urllib3\connectionpool.py", line 386, in _make_request
+    self._validate_conn(conn)
+  File "C:\Users\Akhil\AppData\Local\Programs\Python\Python310\lib\site-packages\urllib3\connectionpool.py", line 1040, in _validate_conn
+    conn.connect()
+  File "C:\Users\Akhil\AppData\Local\Programs\Python\Python310\lib\site-packages\urllib3\connection.py", line 467, in connect
+    _match_hostname(cert, self.assert_hostname or server_hostname)
+  File "C:\Users\Akhil\AppData\Local\Programs\Python\Python310\lib\site-packages\urllib3\connection.py", line 540, in _match_hostname
+    match_hostname(cert, asserted_hostname)
+  File "C:\Users\Akhil\AppData\Local\Programs\Python\Python310\lib\site-packages\urllib3\util\ssl_match_hostname.py", line 150, in match_hostname
+    raise CertificateError(
+urllib3.util.ssl_match_hostname.CertificateError: hostname 'api.wandb.ai' doesn't match either of '*.iitj.ac.in', 'iitj.ac.in'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Akhil\AppData\Local\Programs\Python\Python310\lib\site-packages\requests\adapters.py", line 440, in send
+    resp = conn.urlopen(
+  File "C:\Users\Akhil\AppData\Local\Programs\Python\Python310\lib\site-packages\urllib3\connectionpool.py", line 785, in urlopen
+    retries = retries.increment(
+  File "C:\Users\Akhil\AppData\Local\Programs\Python\Python310\lib\site-packages\urllib3\util\retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /graphql (Caused by SSLError(CertificateError("hostname 'api.wandb.ai' doesn't match either of '*.iitj.ac.in', 'iitj.ac.in'")))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Akhil\AppData\Local\Programs\Python\Python310\lib\site-packages\wandb\sdk\lib\retry.py", line 102, in __call__
+    result = self._call_fn(*args, **kwargs)
+  File "C:\Users\Akhil\AppData\Local\Programs\Python\Python310\lib\site-packages\wandb\sdk\internal\internal_api.py", line 140, in execute
+    return self.client.execute(*args, **kwargs)
+  File "C:\Users\Akhil\AppData\Local\Programs\Python\Python310\lib\site-packages\wandb\vendor\gql-0.2.0\wandb_gql\client.py", line 52, in execute
+    result = self._get_result(document, *args, **kwargs)
+  File "C:\Users\Akhil\AppData\Local\Programs\Python\Python310\lib\site-packages\wandb\vendor\gql-0.2.0\wandb_gql\client.py", line 60, in _get_result
+    return self.transport.execute(document, *args, **kwargs)
+  File "C:\Users\Akhil\AppData\Local\Programs\Python\Python310\lib\site-packages\wandb\vendor\gql-0.2.0\wandb_gql\transport\requests.py", line 38, in execute
+    request = requests.post(self.url, **post_args)
+  File "C:\Users\Akhil\AppData\Local\Programs\Python\Python310\lib\site-packages\requests\api.py", line 117, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "C:\Users\Akhil\AppData\Local\Programs\Python\Python310\lib\site-packages\requests\api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Users\Akhil\AppData\Local\Programs\Python\Python310\lib\site-packages\requests\sessions.py", line 529, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\Akhil\AppData\Local\Programs\Python\Python310\lib\site-packages\requests\sessions.py", line 645, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\Akhil\AppData\Local\Programs\Python\Python310\lib\site-packages\requests\adapters.py", line 517, in send
+    raise SSLError(e, request=request)
+requests.exceptions.SSLError: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /graphql (Caused by SSLError(CertificateError("hostname 'api.wandb.ai' doesn't match either of '*.iitj.ac.in', 'iitj.ac.in'")))
+2022-05-01 17:17:38,710 DEBUG   HandlerThread:17172 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-01 17:17:45,429 WARNING FileStreamThread:17172 [file_stream.py:request_with_retry():593] requests_with_retry encountered retryable exception: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')). func: <bound method Session.post of <requests.sessions.Session object at 0x0000022FD30DC790>>, args: ('https://api.wandb.ai/files/akhil007/FaceMaskDetector/3a4w2bza/file_stream',), kwargs: {'json': {'complete': False, 'failed': False, 'dropped': 0, 'uploaded': []}}
+2022-05-01 17:17:47,898 WARNING FileStreamThread:17172 [file_stream.py:request_with_retry():593] requests_with_retry encountered retryable exception: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /files/akhil007/FaceMaskDetector/3a4w2bza/file_stream (Caused by SSLError(CertificateError("hostname 'api.wandb.ai' doesn't match either of '*.iitj.ac.in', 'iitj.ac.in'"))). func: <bound method Session.post of <requests.sessions.Session object at 0x0000022FD30DC790>>, args: ('https://api.wandb.ai/files/akhil007/FaceMaskDetector/3a4w2bza/file_stream',), kwargs: {'json': {'complete': False, 'failed': False, 'dropped': 0, 'uploaded': []}}
+2022-05-01 17:17:52,746 WARNING FileStreamThread:17172 [file_stream.py:request_with_retry():593] requests_with_retry encountered retryable exception: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /files/akhil007/FaceMaskDetector/3a4w2bza/file_stream (Caused by SSLError(CertificateError("hostname 'api.wandb.ai' doesn't match either of '*.iitj.ac.in', 'iitj.ac.in'"))). func: <bound method Session.post of <requests.sessions.Session object at 0x0000022FD30DC790>>, args: ('https://api.wandb.ai/files/akhil007/FaceMaskDetector/3a4w2bza/file_stream',), kwargs: {'json': {'complete': False, 'failed': False, 'dropped': 0, 'uploaded': []}}
+2022-05-01 17:17:58,732 DEBUG   HandlerThread:17172 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-01 17:18:01,243 WARNING FileStreamThread:17172 [file_stream.py:request_with_retry():593] requests_with_retry encountered retryable exception: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /files/akhil007/FaceMaskDetector/3a4w2bza/file_stream (Caused by SSLError(CertificateError("hostname 'api.wandb.ai' doesn't match either of '*.iitj.ac.in', 'iitj.ac.in'"))). func: <bound method Session.post of <requests.sessions.Session object at 0x0000022FD30DC790>>, args: ('https://api.wandb.ai/files/akhil007/FaceMaskDetector/3a4w2bza/file_stream',), kwargs: {'json': {'complete': False, 'failed': False, 'dropped': 0, 'uploaded': []}}
+2022-05-01 17:18:18,745 DEBUG   HandlerThread:17172 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-01 17:18:20,189 WARNING FileStreamThread:17172 [file_stream.py:request_with_retry():593] requests_with_retry encountered retryable exception: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /files/akhil007/FaceMaskDetector/3a4w2bza/file_stream (Caused by SSLError(CertificateError("hostname 'api.wandb.ai' doesn't match either of '*.iitj.ac.in', 'iitj.ac.in'"))). func: <bound method Session.post of <requests.sessions.Session object at 0x0000022FD30DC790>>, args: ('https://api.wandb.ai/files/akhil007/FaceMaskDetector/3a4w2bza/file_stream',), kwargs: {'json': {'complete': False, 'failed': False, 'dropped': 0, 'uploaded': []}}
+2022-05-01 17:18:38,761 DEBUG   HandlerThread:17172 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-01 17:18:58,770 DEBUG   HandlerThread:17172 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-01 17:19:18,782 DEBUG   HandlerThread:17172 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-01 17:19:38,807 DEBUG   HandlerThread:17172 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-01 17:19:42,623 DEBUG   SenderThread:17172 [sender.py:send_request():246] send_request: stop_status
+2022-05-01 17:19:43,006 DEBUG   SenderThread:17172 [sender.py:send_request():246] send_request: stop_status
+2022-05-01 17:19:43,362 DEBUG   SenderThread:17172 [sender.py:send_request():246] send_request: stop_status
+2022-05-01 17:19:43,721 DEBUG   SenderThread:17172 [sender.py:send_request():246] send_request: stop_status
+2022-05-01 17:19:44,105 DEBUG   SenderThread:17172 [sender.py:send_request():246] send_request: stop_status
+2022-05-01 17:19:44,462 DEBUG   SenderThread:17172 [sender.py:send_request():246] send_request: stop_status
+2022-05-01 17:19:44,821 DEBUG   SenderThread:17172 [sender.py:send_request():246] send_request: stop_status
+2022-05-01 17:19:58,822 DEBUG   HandlerThread:17172 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-01 17:19:58,823 DEBUG   SenderThread:17172 [sender.py:send_request():246] send_request: stop_status
+2022-05-01 17:20:14,228 DEBUG   HandlerThread:17172 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-01 17:20:14,229 DEBUG   SenderThread:17172 [sender.py:send_request():246] send_request: stop_status
+2022-05-01 17:20:30,623 DEBUG   HandlerThread:17172 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-01 17:20:30,623 DEBUG   SenderThread:17172 [sender.py:send_request():246] send_request: stop_status
+2022-05-01 17:20:45,990 DEBUG   HandlerThread:17172 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-01 17:20:45,990 DEBUG   SenderThread:17172 [sender.py:send_request():246] send_request: stop_status
+2022-05-01 17:21:01,366 DEBUG   HandlerThread:17172 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-01 17:21:01,366 DEBUG   SenderThread:17172 [sender.py:send_request():246] send_request: stop_status
+2022-05-01 17:21:16,759 DEBUG   HandlerThread:17172 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-01 17:21:16,759 DEBUG   SenderThread:17172 [sender.py:send_request():246] send_request: stop_status
+2022-05-01 17:21:32,154 DEBUG   HandlerThread:17172 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-01 17:21:32,155 DEBUG   SenderThread:17172 [sender.py:send_request():246] send_request: stop_status
+2022-05-01 17:21:47,548 DEBUG   HandlerThread:17172 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-01 17:21:47,549 DEBUG   SenderThread:17172 [sender.py:send_request():246] send_request: stop_status
+2022-05-01 17:22:02,907 DEBUG   HandlerThread:17172 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-01 17:22:02,908 DEBUG   SenderThread:17172 [sender.py:send_request():246] send_request: stop_status
+2022-05-01 17:22:18,295 DEBUG   HandlerThread:17172 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-01 17:22:18,297 DEBUG   SenderThread:17172 [sender.py:send_request():246] send_request: stop_status
+2022-05-01 17:22:33,693 DEBUG   HandlerThread:17172 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-01 17:22:33,693 DEBUG   SenderThread:17172 [sender.py:send_request():246] send_request: stop_status
+2022-05-01 17:22:49,316 DEBUG   HandlerThread:17172 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-01 17:22:49,316 DEBUG   SenderThread:17172 [sender.py:send_request():246] send_request: stop_status
+2022-05-01 17:23:04,675 DEBUG   HandlerThread:17172 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-01 17:23:04,676 DEBUG   SenderThread:17172 [sender.py:send_request():246] send_request: stop_status
+2022-05-01 17:23:20,061 DEBUG   HandlerThread:17172 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-01 17:23:20,061 DEBUG   SenderThread:17172 [sender.py:send_request():246] send_request: stop_status
+2022-05-01 17:23:35,780 DEBUG   HandlerThread:17172 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-01 17:23:35,781 DEBUG   SenderThread:17172 [sender.py:send_request():246] send_request: stop_status
+2022-05-01 17:23:51,155 DEBUG   HandlerThread:17172 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-01 17:23:51,155 DEBUG   SenderThread:17172 [sender.py:send_request():246] send_request: stop_status
+2022-05-01 17:24:06,593 DEBUG   HandlerThread:17172 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-01 17:24:06,593 DEBUG   SenderThread:17172 [sender.py:send_request():246] send_request: stop_status
+2022-05-01 17:24:21,961 DEBUG   HandlerThread:17172 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-01 17:24:21,961 DEBUG   SenderThread:17172 [sender.py:send_request():246] send_request: stop_status
+2022-05-01 17:24:37,404 DEBUG   HandlerThread:17172 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-01 17:24:37,404 DEBUG   SenderThread:17172 [sender.py:send_request():246] send_request: stop_status
+2022-05-01 17:24:52,784 DEBUG   HandlerThread:17172 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-01 17:24:52,784 DEBUG   SenderThread:17172 [sender.py:send_request():246] send_request: stop_status
+2022-05-01 17:25:08,138 DEBUG   HandlerThread:17172 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-01 17:25:08,138 DEBUG   SenderThread:17172 [sender.py:send_request():246] send_request: stop_status
+2022-05-01 17:25:23,519 DEBUG   HandlerThread:17172 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-01 17:25:23,519 DEBUG   SenderThread:17172 [sender.py:send_request():246] send_request: stop_status
+2022-05-01 17:25:38,906 DEBUG   HandlerThread:17172 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-01 17:25:38,906 DEBUG   SenderThread:17172 [sender.py:send_request():246] send_request: stop_status
+2022-05-01 17:25:54,304 DEBUG   HandlerThread:17172 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-01 17:25:54,304 DEBUG   SenderThread:17172 [sender.py:send_request():246] send_request: stop_status
+2022-05-01 17:26:09,694 DEBUG   HandlerThread:17172 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-01 17:26:09,694 DEBUG   SenderThread:17172 [sender.py:send_request():246] send_request: stop_status
+2022-05-01 17:26:25,075 DEBUG   HandlerThread:17172 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-01 17:26:25,075 DEBUG   SenderThread:17172 [sender.py:send_request():246] send_request: stop_status
+2022-05-01 17:26:40,963 DEBUG   HandlerThread:17172 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-01 17:26:40,963 DEBUG   SenderThread:17172 [sender.py:send_request():246] send_request: stop_status
+2022-05-01 17:26:56,355 DEBUG   HandlerThread:17172 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-01 17:26:56,355 DEBUG   SenderThread:17172 [sender.py:send_request():246] send_request: stop_status
+2022-05-01 17:27:11,763 DEBUG   HandlerThread:17172 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-01 17:27:11,763 DEBUG   SenderThread:17172 [sender.py:send_request():246] send_request: stop_status
+2022-05-01 17:27:27,145 DEBUG   HandlerThread:17172 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-01 17:27:27,145 DEBUG   SenderThread:17172 [sender.py:send_request():246] send_request: stop_status
+2022-05-01 17:27:42,520 DEBUG   HandlerThread:17172 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-01 17:27:42,521 DEBUG   SenderThread:17172 [sender.py:send_request():246] send_request: stop_status
+2022-05-01 17:27:57,906 DEBUG   HandlerThread:17172 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-01 17:27:57,906 DEBUG   SenderThread:17172 [sender.py:send_request():246] send_request: stop_status
+2022-05-01 17:28:13,468 DEBUG   HandlerThread:17172 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-01 17:28:13,468 DEBUG   SenderThread:17172 [sender.py:send_request():246] send_request: stop_status
+2022-05-01 17:28:29,114 DEBUG   HandlerThread:17172 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-01 17:28:29,114 DEBUG   SenderThread:17172 [sender.py:send_request():246] send_request: stop_status
+2022-05-01 17:28:44,490 DEBUG   HandlerThread:17172 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-01 17:28:44,490 DEBUG   SenderThread:17172 [sender.py:send_request():246] send_request: stop_status
+2022-05-01 17:29:00,121 DEBUG   HandlerThread:17172 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-01 17:29:00,121 DEBUG   SenderThread:17172 [sender.py:send_request():246] send_request: stop_status
+2022-05-01 17:29:15,503 DEBUG   HandlerThread:17172 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-01 17:29:15,503 DEBUG   SenderThread:17172 [sender.py:send_request():246] send_request: stop_status
+2022-05-01 17:29:30,859 DEBUG   HandlerThread:17172 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-01 17:29:30,860 DEBUG   SenderThread:17172 [sender.py:send_request():246] send_request: stop_status
+2022-05-01 17:29:46,312 DEBUG   HandlerThread:17172 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-01 17:29:46,312 DEBUG   SenderThread:17172 [sender.py:send_request():246] send_request: stop_status
+2022-05-01 17:30:01,716 DEBUG   HandlerThread:17172 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-01 17:30:01,716 DEBUG   SenderThread:17172 [sender.py:send_request():246] send_request: stop_status
+2022-05-01 17:30:17,084 DEBUG   HandlerThread:17172 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-01 17:30:17,084 DEBUG   SenderThread:17172 [sender.py:send_request():246] send_request: stop_status
+2022-05-01 17:30:32,479 DEBUG   HandlerThread:17172 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-01 17:30:32,480 DEBUG   SenderThread:17172 [sender.py:send_request():246] send_request: stop_status
+2022-05-01 17:30:47,846 DEBUG   HandlerThread:17172 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-01 17:30:47,846 DEBUG   SenderThread:17172 [sender.py:send_request():246] send_request: stop_status
+2022-05-01 17:31:03,257 DEBUG   HandlerThread:17172 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-01 17:31:03,258 DEBUG   SenderThread:17172 [sender.py:send_request():246] send_request: stop_status
+2022-05-01 17:31:18,682 DEBUG   HandlerThread:17172 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-01 17:31:18,682 DEBUG   SenderThread:17172 [sender.py:send_request():246] send_request: stop_status
+2022-05-01 17:31:34,077 DEBUG   HandlerThread:17172 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-01 17:31:34,078 DEBUG   SenderThread:17172 [sender.py:send_request():246] send_request: stop_status
+2022-05-01 17:31:49,505 DEBUG   HandlerThread:17172 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-01 17:31:49,505 DEBUG   SenderThread:17172 [sender.py:send_request():246] send_request: stop_status
+2022-05-01 17:32:04,877 DEBUG   HandlerThread:17172 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-01 17:32:04,877 DEBUG   SenderThread:17172 [sender.py:send_request():246] send_request: stop_status
+2022-05-01 17:32:20,287 DEBUG   HandlerThread:17172 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-01 17:32:20,289 DEBUG   SenderThread:17172 [sender.py:send_request():246] send_request: stop_status
+2022-05-01 17:32:35,669 DEBUG   HandlerThread:17172 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-01 17:32:35,670 DEBUG   SenderThread:17172 [sender.py:send_request():246] send_request: stop_status
+2022-05-01 17:32:51,079 DEBUG   HandlerThread:17172 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-01 17:32:51,080 DEBUG   SenderThread:17172 [sender.py:send_request():246] send_request: stop_status
+2022-05-01 17:33:06,475 DEBUG   HandlerThread:17172 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-01 17:33:06,475 DEBUG   SenderThread:17172 [sender.py:send_request():246] send_request: stop_status
+2022-05-01 17:33:21,856 DEBUG   HandlerThread:17172 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-01 17:33:21,858 DEBUG   SenderThread:17172 [sender.py:send_request():246] send_request: stop_status
+2022-05-01 17:33:37,475 DEBUG   HandlerThread:17172 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-01 17:33:37,475 DEBUG   SenderThread:17172 [sender.py:send_request():246] send_request: stop_status
+2022-05-01 17:33:52,842 DEBUG   HandlerThread:17172 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-01 17:33:52,843 DEBUG   SenderThread:17172 [sender.py:send_request():246] send_request: stop_status
+2022-05-01 17:34:08,251 DEBUG   HandlerThread:17172 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-01 17:34:08,251 DEBUG   SenderThread:17172 [sender.py:send_request():246] send_request: stop_status
+2022-05-01 17:34:23,612 DEBUG   HandlerThread:17172 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-01 17:34:23,612 DEBUG   SenderThread:17172 [sender.py:send_request():246] send_request: stop_status
+2022-05-01 17:34:39,009 DEBUG   HandlerThread:17172 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-01 17:34:39,009 DEBUG   SenderThread:17172 [sender.py:send_request():246] send_request: stop_status
+2022-05-01 17:34:54,397 DEBUG   HandlerThread:17172 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-01 17:34:54,398 DEBUG   SenderThread:17172 [sender.py:send_request():246] send_request: stop_status
+2022-05-01 17:35:09,800 DEBUG   HandlerThread:17172 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-01 17:35:09,800 DEBUG   SenderThread:17172 [sender.py:send_request():246] send_request: stop_status
+2022-05-01 17:35:28,035 DEBUG   HandlerThread:17172 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-01 17:35:28,035 DEBUG   SenderThread:17172 [sender.py:send_request():246] send_request: stop_status
+2022-05-01 17:35:43,397 DEBUG   HandlerThread:17172 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-01 17:35:43,397 DEBUG   SenderThread:17172 [sender.py:send_request():246] send_request: stop_status
+2022-05-01 17:35:58,766 DEBUG   HandlerThread:17172 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-01 17:35:58,766 DEBUG   SenderThread:17172 [sender.py:send_request():246] send_request: stop_status
+2022-05-01 17:36:14,139 DEBUG   HandlerThread:17172 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-01 17:36:14,139 DEBUG   SenderThread:17172 [sender.py:send_request():246] send_request: stop_status
+2022-05-01 17:36:29,512 DEBUG   HandlerThread:17172 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-01 17:36:29,512 DEBUG   SenderThread:17172 [sender.py:send_request():246] send_request: stop_status
+2022-05-01 17:36:44,898 DEBUG   HandlerThread:17172 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-01 17:36:44,899 DEBUG   SenderThread:17172 [sender.py:send_request():246] send_request: stop_status
+2022-05-01 17:37:00,285 DEBUG   HandlerThread:17172 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-01 17:37:00,286 DEBUG   SenderThread:17172 [sender.py:send_request():246] send_request: stop_status
+2022-05-01 17:37:15,673 DEBUG   HandlerThread:17172 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-01 17:37:15,673 DEBUG   SenderThread:17172 [sender.py:send_request():246] send_request: stop_status
+2022-05-01 17:37:31,060 DEBUG   HandlerThread:17172 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-01 17:37:31,060 DEBUG   SenderThread:17172 [sender.py:send_request():246] send_request: stop_status
+2022-05-01 17:37:46,426 DEBUG   HandlerThread:17172 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-01 17:37:46,426 DEBUG   SenderThread:17172 [sender.py:send_request():246] send_request: stop_status
+2022-05-01 17:38:02,135 DEBUG   HandlerThread:17172 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-01 17:38:02,136 DEBUG   SenderThread:17172 [sender.py:send_request():246] send_request: stop_status
+2022-05-01 17:38:17,546 DEBUG   HandlerThread:17172 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-01 17:38:17,546 DEBUG   SenderThread:17172 [sender.py:send_request():246] send_request: stop_status
+2022-05-01 17:38:32,933 DEBUG   HandlerThread:17172 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-01 17:38:32,933 DEBUG   SenderThread:17172 [sender.py:send_request():246] send_request: stop_status
+2022-05-01 17:38:48,289 DEBUG   HandlerThread:17172 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-01 17:38:48,289 DEBUG   SenderThread:17172 [sender.py:send_request():246] send_request: stop_status
+2022-05-01 17:39:03,685 DEBUG   HandlerThread:17172 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-01 17:39:03,685 DEBUG   SenderThread:17172 [sender.py:send_request():246] send_request: stop_status
+2022-05-01 17:39:19,068 DEBUG   HandlerThread:17172 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-01 17:39:19,069 DEBUG   SenderThread:17172 [sender.py:send_request():246] send_request: stop_status
+2022-05-01 17:39:34,488 DEBUG   HandlerThread:17172 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-01 17:39:34,488 DEBUG   SenderThread:17172 [sender.py:send_request():246] send_request: stop_status
+2022-05-01 17:39:49,881 DEBUG   HandlerThread:17172 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-01 17:39:49,881 DEBUG   SenderThread:17172 [sender.py:send_request():246] send_request: stop_status
+2022-05-01 17:40:05,262 DEBUG   HandlerThread:17172 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-01 17:40:05,262 DEBUG   SenderThread:17172 [sender.py:send_request():246] send_request: stop_status
+2022-05-01 17:40:20,677 DEBUG   HandlerThread:17172 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-01 17:40:20,677 DEBUG   SenderThread:17172 [sender.py:send_request():246] send_request: stop_status
+2022-05-01 17:40:36,068 DEBUG   HandlerThread:17172 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-01 17:40:36,068 DEBUG   SenderThread:17172 [sender.py:send_request():246] send_request: stop_status
+2022-05-01 17:40:51,453 DEBUG   HandlerThread:17172 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-01 17:40:51,453 DEBUG   SenderThread:17172 [sender.py:send_request():246] send_request: stop_status
+2022-05-01 17:41:07,347 DEBUG   HandlerThread:17172 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-01 17:41:07,347 DEBUG   SenderThread:17172 [sender.py:send_request():246] send_request: stop_status
+2022-05-01 17:41:22,739 DEBUG   HandlerThread:17172 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-01 17:41:22,739 DEBUG   SenderThread:17172 [sender.py:send_request():246] send_request: stop_status
+2022-05-01 17:41:38,093 DEBUG   HandlerThread:17172 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-01 17:41:38,093 DEBUG   SenderThread:17172 [sender.py:send_request():246] send_request: stop_status
+2022-05-01 17:41:53,447 DEBUG   HandlerThread:17172 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-01 17:41:53,447 DEBUG   SenderThread:17172 [sender.py:send_request():246] send_request: stop_status
+2022-05-01 17:42:08,810 DEBUG   HandlerThread:17172 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-01 17:42:08,810 DEBUG   SenderThread:17172 [sender.py:send_request():246] send_request: stop_status
+2022-05-01 17:42:24,189 DEBUG   HandlerThread:17172 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-01 17:42:24,189 DEBUG   SenderThread:17172 [sender.py:send_request():246] send_request: stop_status
+2022-05-01 17:42:39,556 DEBUG   HandlerThread:17172 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-01 17:42:39,557 DEBUG   SenderThread:17172 [sender.py:send_request():246] send_request: stop_status
+2022-05-01 17:42:55,334 DEBUG   HandlerThread:17172 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-01 17:42:55,339 DEBUG   SenderThread:17172 [sender.py:send_request():246] send_request: stop_status
+2022-05-01 17:43:10,928 DEBUG   HandlerThread:17172 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-01 17:43:10,930 DEBUG   SenderThread:17172 [sender.py:send_request():246] send_request: stop_status
+2022-05-01 17:54:58,643 ERROR   SenderThread:17172 [retry.py:__call__():126] Retry attempt failed:
+Traceback (most recent call last):
+  File "C:\Users\Akhil\AppData\Local\Programs\Python\Python310\lib\site-packages\urllib3\connection.py", line 174, in _new_conn
+    conn = connection.create_connection(
+  File "C:\Users\Akhil\AppData\Local\Programs\Python\Python310\lib\site-packages\urllib3\util\connection.py", line 72, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "C:\Users\Akhil\AppData\Local\Programs\Python\Python310\lib\socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Akhil\AppData\Local\Programs\Python\Python310\lib\site-packages\urllib3\connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "C:\Users\Akhil\AppData\Local\Programs\Python\Python310\lib\site-packages\urllib3\connectionpool.py", line 386, in _make_request
+    self._validate_conn(conn)
+  File "C:\Users\Akhil\AppData\Local\Programs\Python\Python310\lib\site-packages\urllib3\connectionpool.py", line 1040, in _validate_conn
+    conn.connect()
+  File "C:\Users\Akhil\AppData\Local\Programs\Python\Python310\lib\site-packages\urllib3\connection.py", line 358, in connect
+    self.sock = conn = self._new_conn()
+  File "C:\Users\Akhil\AppData\Local\Programs\Python\Python310\lib\site-packages\urllib3\connection.py", line 186, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x0000022FE7F82A70>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Akhil\AppData\Local\Programs\Python\Python310\lib\site-packages\requests\adapters.py", line 440, in send
+    resp = conn.urlopen(
+  File "C:\Users\Akhil\AppData\Local\Programs\Python\Python310\lib\site-packages\urllib3\connectionpool.py", line 785, in urlopen
+    retries = retries.increment(
+  File "C:\Users\Akhil\AppData\Local\Programs\Python\Python310\lib\site-packages\urllib3\util\retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /graphql (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000022FE7F82A70>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Akhil\AppData\Local\Programs\Python\Python310\lib\site-packages\wandb\sdk\lib\retry.py", line 102, in __call__
+    result = self._call_fn(*args, **kwargs)
+  File "C:\Users\Akhil\AppData\Local\Programs\Python\Python310\lib\site-packages\wandb\sdk\internal\internal_api.py", line 140, in execute
+    return self.client.execute(*args, **kwargs)
+  File "C:\Users\Akhil\AppData\Local\Programs\Python\Python310\lib\site-packages\wandb\vendor\gql-0.2.0\wandb_gql\client.py", line 52, in execute
+    result = self._get_result(document, *args, **kwargs)
+  File "C:\Users\Akhil\AppData\Local\Programs\Python\Python310\lib\site-packages\wandb\vendor\gql-0.2.0\wandb_gql\client.py", line 60, in _get_result
+    return self.transport.execute(document, *args, **kwargs)
+  File "C:\Users\Akhil\AppData\Local\Programs\Python\Python310\lib\site-packages\wandb\vendor\gql-0.2.0\wandb_gql\transport\requests.py", line 38, in execute
+    request = requests.post(self.url, **post_args)
+  File "C:\Users\Akhil\AppData\Local\Programs\Python\Python310\lib\site-packages\requests\api.py", line 117, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "C:\Users\Akhil\AppData\Local\Programs\Python\Python310\lib\site-packages\requests\api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Users\Akhil\AppData\Local\Programs\Python\Python310\lib\site-packages\requests\sessions.py", line 529, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\Akhil\AppData\Local\Programs\Python\Python310\lib\site-packages\requests\sessions.py", line 645, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\Akhil\AppData\Local\Programs\Python\Python310\lib\site-packages\requests\adapters.py", line 519, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /graphql (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000022FE7F82A70>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+2022-05-01 17:55:04,304 DEBUG   HandlerThread:17172 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-01 17:55:04,306 DEBUG   SenderThread:17172 [sender.py:send_request():246] send_request: stop_status
+2022-05-01 17:55:19,708 DEBUG   HandlerThread:17172 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-01 17:55:19,710 DEBUG   SenderThread:17172 [sender.py:send_request():246] send_request: stop_status
+2022-05-01 17:55:25,305 WARNING FileStreamThread:17172 [file_stream.py:request_with_retry():593] requests_with_retry encountered retryable exception: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')). func: <bound method Session.post of <requests.sessions.Session object at 0x0000022FD30DC790>>, args: ('https://api.wandb.ai/files/akhil007/FaceMaskDetector/3a4w2bza/file_stream',), kwargs: {'json': {'complete': False, 'failed': False, 'dropped': 0, 'uploaded': []}}
+2022-05-01 17:55:35,086 DEBUG   HandlerThread:17172 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-01 17:55:35,086 DEBUG   SenderThread:17172 [sender.py:send_request():246] send_request: stop_status
+2022-05-01 17:55:50,476 DEBUG   HandlerThread:17172 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-01 17:55:50,476 DEBUG   SenderThread:17172 [sender.py:send_request():246] send_request: stop_status
+2022-05-01 17:56:05,839 DEBUG   HandlerThread:17172 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-01 17:56:05,839 DEBUG   SenderThread:17172 [sender.py:send_request():246] send_request: stop_status
+2022-05-01 17:56:21,213 DEBUG   HandlerThread:17172 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-01 17:56:21,213 DEBUG   SenderThread:17172 [sender.py:send_request():246] send_request: stop_status
+2022-05-01 17:56:36,573 DEBUG   HandlerThread:17172 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-01 17:56:36,573 DEBUG   SenderThread:17172 [sender.py:send_request():246] send_request: stop_status
+2022-05-01 17:56:51,980 DEBUG   HandlerThread:17172 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-01 17:56:51,980 DEBUG   SenderThread:17172 [sender.py:send_request():246] send_request: stop_status
+2022-05-01 17:57:07,355 DEBUG   HandlerThread:17172 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-01 17:57:07,355 DEBUG   SenderThread:17172 [sender.py:send_request():246] send_request: stop_status
+2022-05-01 17:57:22,718 DEBUG   HandlerThread:17172 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-01 17:57:22,718 DEBUG   SenderThread:17172 [sender.py:send_request():246] send_request: stop_status
+2022-05-01 17:57:38,076 DEBUG   HandlerThread:17172 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-01 17:57:38,076 DEBUG   SenderThread:17172 [sender.py:send_request():246] send_request: stop_status
+2022-05-01 17:57:53,452 DEBUG   HandlerThread:17172 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-01 17:57:53,452 DEBUG   SenderThread:17172 [sender.py:send_request():246] send_request: stop_status
+2022-05-01 17:58:06,868 WARNING MainThread:17172 [internal.py:is_dead():387] Internal process exiting, parent pid 16132 disappeared
+2022-05-01 17:58:06,868 ERROR   MainThread:17172 [internal.py:wandb_internal():149] Internal process shutdown.
+2022-05-01 17:58:07,384 INFO    HandlerThread:17172 [handler.py:finish():806] shutting down handler
+2022-05-01 17:58:07,452 INFO    SenderThread:17172 [sender.py:finish():1106] shutting down sender
+2022-05-01 17:58:07,452 INFO    SenderThread:17172 [dir_watcher.py:finish():279] shutting down directory watcher
+2022-05-01 17:58:07,877 INFO    WriterThread:17172 [datastore.py:close():279] close: c:\Users\Akhil\Desktop\Face-Mask-Detector-Using-CNN-master\Face-Mask-Detector-Using-CNN-master\wandb\run-20220501_170528-3a4w2bza\run-3a4w2bza.wandb
+2022-05-01 17:58:08,244 INFO    SenderThread:17172 [dir_watcher.py:finish():309] scan: c:\Users\Akhil\Desktop\Face-Mask-Detector-Using-CNN-master\Face-Mask-Detector-Using-CNN-master\wandb\run-20220501_170528-3a4w2bza\files
+2022-05-01 17:58:08,244 INFO    SenderThread:17172 [dir_watcher.py:finish():323] scan save: c:\Users\Akhil\Desktop\Face-Mask-Detector-Using-CNN-master\Face-Mask-Detector-Using-CNN-master\wandb\run-20220501_170528-3a4w2bza\files\config.yaml config.yaml
+2022-05-01 17:58:08,244 INFO    SenderThread:17172 [dir_watcher.py:finish():323] scan save: c:\Users\Akhil\Desktop\Face-Mask-Detector-Using-CNN-master\Face-Mask-Detector-Using-CNN-master\wandb\run-20220501_170528-3a4w2bza\files\output.log output.log
+2022-05-01 17:58:08,259 INFO    SenderThread:17172 [dir_watcher.py:finish():323] scan save: c:\Users\Akhil\Desktop\Face-Mask-Detector-Using-CNN-master\Face-Mask-Detector-Using-CNN-master\wandb\run-20220501_170528-3a4w2bza\files\requirements.txt requirements.txt
+2022-05-01 17:58:08,259 INFO    SenderThread:17172 [dir_watcher.py:finish():323] scan save: c:\Users\Akhil\Desktop\Face-Mask-Detector-Using-CNN-master\Face-Mask-Detector-Using-CNN-master\wandb\run-20220501_170528-3a4w2bza\files\wandb-metadata.json wandb-metadata.json
+2022-05-01 17:58:08,259 INFO    SenderThread:17172 [dir_watcher.py:finish():323] scan save: c:\Users\Akhil\Desktop\Face-Mask-Detector-Using-CNN-master\Face-Mask-Detector-Using-CNN-master\wandb\run-20220501_170528-3a4w2bza\files\wandb-summary.json wandb-summary.json
+2022-05-01 17:58:08,275 INFO    SenderThread:17172 [file_pusher.py:finish():145] shutting down file pusher
+2022-05-01 17:58:08,275 INFO    SenderThread:17172 [file_pusher.py:join():150] waiting for file pusher
+2022-05-01 17:58:09,399 INFO    Thread-26 :17172 [upload_job.py:push():137] Uploaded file c:\Users\Akhil\Desktop\Face-Mask-Detector-Using-CNN-master\Face-Mask-Detector-Using-CNN-master\wandb\run-20220501_170528-3a4w2bza\files\wandb-summary.json
+2022-05-01 17:58:09,416 INFO    Thread-23 :17172 [upload_job.py:push():137] Uploaded file c:\Users\Akhil\Desktop\Face-Mask-Detector-Using-CNN-master\Face-Mask-Detector-Using-CNN-master\wandb\run-20220501_170528-3a4w2bza\files\config.yaml
+2022-05-01 17:58:09,425 INFO    Thread-24 :17172 [upload_job.py:push():137] Uploaded file c:\Users\Akhil\Desktop\Face-Mask-Detector-Using-CNN-master\Face-Mask-Detector-Using-CNN-master\wandb\run-20220501_170528-3a4w2bza\files\output.log
+2022-05-01 17:58:09,440 INFO    Thread-25 :17172 [upload_job.py:push():137] Uploaded file c:\Users\Akhil\Desktop\Face-Mask-Detector-Using-CNN-master\Face-Mask-Detector-Using-CNN-master\wandb\run-20220501_170528-3a4w2bza\files\requirements.txt
+2022-05-01 17:58:10,379 INFO    MainThread:17172 [internal.py:handle_exit():80] Internal process exited

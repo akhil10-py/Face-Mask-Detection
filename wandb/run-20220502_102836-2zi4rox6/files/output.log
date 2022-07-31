@@ -1,0 +1,234 @@
+Image Size: torch.Size([3, 224, 224])
+Label: RMDFDATA2
+Face Label Images in Train Set: 7212
+Mask Label Images in Train Set: 0
+Face Label Images in Validation Set: 1804
+Mask Label Images in Validation Set: 0
+Confusion Matrix for Evaluation:
+[[128]]
+Confusion Matrix for Evaluation:
+[[128]]
+Confusion Matrix for Evaluation:
+[[128]]
+Confusion Matrix for Evaluation:
+[[128]]
+Confusion Matrix for Evaluation:
+[[128]]
+Confusion Matrix for Evaluation:
+[[128]]
+Confusion Matrix for Evaluation:
+[[128]]
+Confusion Matrix for Evaluation:
+[[128]]
+Confusion Matrix for Evaluation:
+[[128]]
+Confusion Matrix for Evaluation:
+[[128]]
+Confusion Matrix for Evaluation:
+[[128]]
+Confusion Matrix for Evaluation:
+[[128]]
+Confusion Matrix for Evaluation:
+[[128]]
+Confusion Matrix for Evaluation:
+[[128]]
+Confusion Matrix for Evaluation:
+[[12]]
+Confusion Matrix for Evaluation:
+[[128]]
+Confusion Matrix for Evaluation:
+[[128]]
+Confusion Matrix for Evaluation:
+[[128]]
+Confusion Matrix for Evaluation:
+[[128]]
+Confusion Matrix for Evaluation:
+[[128]]
+Confusion Matrix for Evaluation:
+[[128]]
+Confusion Matrix for Evaluation:
+[[128]]
+Confusion Matrix for Evaluation:
+[[128]]
+Confusion Matrix for Evaluation:
+[[128]]
+Confusion Matrix for Evaluation:
+[[128]]
+Confusion Matrix for Evaluation:
+[[128]]
+Confusion Matrix for Evaluation:
+[[128]]
+Confusion Matrix for Evaluation:
+[[128]]
+Confusion Matrix for Evaluation:
+[[128]]
+Confusion Matrix for Evaluation:
+[[12]]
+Epoch 0: train_loss: 0.0374 val_loss: 0.0015 val_score: 1.0000 precision: 1.0
+Confusion Matrix for Evaluation:
+[[128]]
+Confusion Matrix for Evaluation:
+[[128]]
+Confusion Matrix for Evaluation:
+[[128]]
+Confusion Matrix for Evaluation:
+[[128]]
+Confusion Matrix for Evaluation:
+[[128]]
+Confusion Matrix for Evaluation:
+[[128]]
+Confusion Matrix for Evaluation:
+[[128]]
+Confusion Matrix for Evaluation:
+[[128]]
+Confusion Matrix for Evaluation:
+[[128]]
+Confusion Matrix for Evaluation:
+[[128]]
+Confusion Matrix for Evaluation:
+[[128]]
+Confusion Matrix for Evaluation:
+[[128]]
+Confusion Matrix for Evaluation:
+[[128]]
+Confusion Matrix for Evaluation:
+[[128]]
+Confusion Matrix for Evaluation:
+[[12]]
+Epoch 1: train_loss: 0.0023 val_loss: 0.0005 val_score: 1.0000 precision: 1.0
+Confusion Matrix for Evaluation:
+[[128]]
+Confusion Matrix for Evaluation:
+[[128]]
+Confusion Matrix for Evaluation:
+[[128]]
+Confusion Matrix for Evaluation:
+[[128]]
+Confusion Matrix for Evaluation:
+[[128]]
+Confusion Matrix for Evaluation:
+[[128]]
+Confusion Matrix for Evaluation:
+[[128]]
+Confusion Matrix for Evaluation:
+[[128]]
+Confusion Matrix for Evaluation:
+[[128]]
+Confusion Matrix for Evaluation:
+[[128]]
+Confusion Matrix for Evaluation:
+[[128]]
+Confusion Matrix for Evaluation:
+[[128]]
+Confusion Matrix for Evaluation:
+[[128]]
+Confusion Matrix for Evaluation:
+[[128]]
+Confusion Matrix for Evaluation:
+[[12]]
+Epoch 2: train_loss: 0.0011 val_loss: 0.0002 val_score: 1.0000 precision: 1.0
+Confusion Matrix for Evaluation:
+[[128]]
+Confusion Matrix for Evaluation:
+[[128]]
+Confusion Matrix for Evaluation:
+[[128]]
+Confusion Matrix for Evaluation:
+[[128]]
+Confusion Matrix for Evaluation:
+[[128]]
+Confusion Matrix for Evaluation:
+[[128]]
+Confusion Matrix for Evaluation:
+[[128]]
+Confusion Matrix for Evaluation:
+[[128]]
+Confusion Matrix for Evaluation:
+[[128]]
+Confusion Matrix for Evaluation:
+[[128]]
+Confusion Matrix for Evaluation:
+[[128]]
+Confusion Matrix for Evaluation:
+[[128]]
+Confusion Matrix for Evaluation:
+[[128]]
+Confusion Matrix for Evaluation:
+[[128]]
+Confusion Matrix for Evaluation:
+[[12]]
+Epoch 3: train_loss: 0.0009 val_loss: 0.0001 val_score: 1.0000 precision: 1.0
+Confusion Matrix for Evaluation:
+[[128]]
+Confusion Matrix for Evaluation:
+[[128]]
+Confusion Matrix for Evaluation:
+[[128]]
+Confusion Matrix for Evaluation:
+[[128]]
+Confusion Matrix for Evaluation:
+[[128]]
+Confusion Matrix for Evaluation:
+[[128]]
+Confusion Matrix for Evaluation:
+[[128]]
+Confusion Matrix for Evaluation:
+[[128]]
+Confusion Matrix for Evaluation:
+[[128]]
+Confusion Matrix for Evaluation:
+[[128]]
+Confusion Matrix for Evaluation:
+[[128]]
+Confusion Matrix for Evaluation:
+[[128]]
+Confusion Matrix for Evaluation:
+[[128]]
+Confusion Matrix for Evaluation:
+[[128]]
+Confusion Matrix for Evaluation:
+[[12]]
+Epoch 0: train_loss: 0.0006 val_loss: 0.0001 val_score: 1.0000 precision: 1.0
+Confusion Matrix for Evaluation:
+[[128]]
+Confusion Matrix for Evaluation:
+[[128]]
+Confusion Matrix for Evaluation:
+[[128]]
+Confusion Matrix for Evaluation:
+[[128]]
+Confusion Matrix for Evaluation:
+[[128]]
+Confusion Matrix for Evaluation:
+[[128]]
+Confusion Matrix for Evaluation:
+[[128]]
+Confusion Matrix for Evaluation:
+[[128]]
+Confusion Matrix for Evaluation:
+[[128]]
+Confusion Matrix for Evaluation:
+[[128]]
+Confusion Matrix for Evaluation:
+[[128]]
+Confusion Matrix for Evaluation:
+[[128]]
+Confusion Matrix for Evaluation:
+[[128]]
+Confusion Matrix for Evaluation:
+[[128]]
+Confusion Matrix for Evaluation:
+[[12]]
+Epoch 1: train_loss: 0.0005 val_loss: 0.0001 val_score: 1.0000 precision: 1.0
+tensor([[ 10.3331, -10.7975]], device='cuda:0')
+Predicted: RMDFDATA2
+tensor([[ 5.0156, -5.2156]], device='cuda:0')
+Predicted: RMDFDATA2
+tensor([[ 5.6873, -5.9963]], device='cuda:0')
+Predicted: RMDFDATA2
+tensor([[ 5.6407, -6.0024]], device='cuda:0')
+Predicted: RMDFDATA2
+tensor([[ 5.6320, -5.9702]], device='cuda:0')
+Predicted: RMDFDATA2
+tensor([[ 6.9723, -7.2129]], device='cuda:0')
+Predicted: RMDFDATA2

@@ -1,0 +1,276 @@
+Confusion Matrix for Evaluation:
+[[59  4]
+ [ 3 62]]
+Confusion Matrix for Evaluation:
+[[62  7]
+ [ 2 57]]
+Confusion Matrix for Evaluation:
+[[51  5]
+ [ 3 69]]
+Confusion Matrix for Evaluation:
+[[49  8]
+ [ 7 64]]
+Confusion Matrix for Evaluation:
+[[58  4]
+ [ 5 61]]
+Confusion Matrix for Evaluation:
+[[60  5]
+ [ 8 55]]
+Confusion Matrix for Evaluation:
+[[69  6]
+ [ 2 51]]
+Confusion Matrix for Evaluation:
+[[60  6]
+ [ 3 59]]
+Confusion Matrix for Evaluation:
+[[70  4]
+ [ 4 50]]
+Confusion Matrix for Evaluation:
+[[61  6]
+ [ 3 58]]
+Confusion Matrix for Evaluation:
+[[49  8]
+ [ 2 69]]
+Confusion Matrix for Evaluation:
+[[70  5]
+ [ 1 52]]
+Confusion Matrix for Evaluation:
+[[57  9]
+ [ 3 59]]
+Confusion Matrix for Evaluation:
+[[58  6]
+ [ 1 63]]
+Confusion Matrix for Evaluation:
+[[6 0]
+ [1 5]]
+Epoch 0: train_loss: 0.3591 val_loss: 0.2208 val_score: 0.9267 precision: 0.926736056804657
+Confusion Matrix for Evaluation:
+[[57  3]
+ [ 2 66]]
+Confusion Matrix for Evaluation:
+[[62  1]
+ [ 2 63]]
+Confusion Matrix for Evaluation:
+[[60  5]
+ [ 3 60]]
+Confusion Matrix for Evaluation:
+[[64  6]
+ [ 3 55]]
+Confusion Matrix for Evaluation:
+[[67  6]
+ [ 2 53]]
+Confusion Matrix for Evaluation:
+[[60  5]
+ [ 3 60]]
+Confusion Matrix for Evaluation:
+[[58  7]
+ [ 5 58]]
+Confusion Matrix for Evaluation:
+[[72  3]
+ [ 2 51]]
+Confusion Matrix for Evaluation:
+[[58  7]
+ [ 6 57]]
+Confusion Matrix for Evaluation:
+[[68  1]
+ [ 1 58]]
+Confusion Matrix for Evaluation:
+[[61  4]
+ [ 1 62]]
+Confusion Matrix for Evaluation:
+[[53  1]
+ [ 1 73]]
+Confusion Matrix for Evaluation:
+[[61  5]
+ [ 2 60]]
+Confusion Matrix for Evaluation:
+[[58  5]
+ [ 4 61]]
+Confusion Matrix for Evaluation:
+[[4 0]
+ [1 7]]
+Epoch 1: train_loss: 0.1830 val_loss: 0.1532 val_score: 0.9444 precision: 0.9444444179534912
+Confusion Matrix for Evaluation:
+[[63  7]
+ [ 2 56]]
+Confusion Matrix for Evaluation:
+[[62  3]
+ [ 3 60]]
+Confusion Matrix for Evaluation:
+[[69  2]
+ [ 3 54]]
+Confusion Matrix for Evaluation:
+[[61  6]
+ [ 0 61]]
+Confusion Matrix for Evaluation:
+[[61  1]
+ [ 5 61]]
+Confusion Matrix for Evaluation:
+[[54  3]
+ [ 2 69]]
+Confusion Matrix for Evaluation:
+[[59  5]
+ [ 2 62]]
+Confusion Matrix for Evaluation:
+[[63  3]
+ [ 1 61]]
+Confusion Matrix for Evaluation:
+[[67  2]
+ [ 2 57]]
+Confusion Matrix for Evaluation:
+[[63  3]
+ [ 3 59]]
+Confusion Matrix for Evaluation:
+[[51  4]
+ [ 5 68]]
+Confusion Matrix for Evaluation:
+[[68  2]
+ [ 2 56]]
+Confusion Matrix for Evaluation:
+[[58  7]
+ [ 5 58]]
+Confusion Matrix for Evaluation:
+[[63  4]
+ [ 1 60]]
+Confusion Matrix for Evaluation:
+[[8 0]
+ [0 4]]
+Epoch 2: train_loss: 0.1581 val_loss: 0.1295 val_score: 0.9542 precision: 0.9541666507720947
+Confusion Matrix for Evaluation:
+[[55  0]
+ [ 1 72]]
+Confusion Matrix for Evaluation:
+[[72  1]
+ [ 5 50]]
+Confusion Matrix for Evaluation:
+[[62  2]
+ [ 8 56]]
+Confusion Matrix for Evaluation:
+[[54  0]
+ [ 4 70]]
+Confusion Matrix for Evaluation:
+[[69  3]
+ [ 9 47]]
+Confusion Matrix for Evaluation:
+[[56  1]
+ [ 2 69]]
+Confusion Matrix for Evaluation:
+[[61  2]
+ [ 7 58]]
+Confusion Matrix for Evaluation:
+[[64  2]
+ [ 2 60]]
+Confusion Matrix for Evaluation:
+[[72  1]
+ [ 4 51]]
+Confusion Matrix for Evaluation:
+[[65  1]
+ [ 2 60]]
+Confusion Matrix for Evaluation:
+[[71  0]
+ [ 6 51]]
+Confusion Matrix for Evaluation:
+[[62  2]
+ [ 4 60]]
+Confusion Matrix for Evaluation:
+[[72  0]
+ [ 3 53]]
+Confusion Matrix for Evaluation:
+[[65  0]
+ [ 6 57]]
+Confusion Matrix for Evaluation:
+[[7 0]
+ [0 5]]
+Epoch 3: train_loss: 0.1370 val_loss: 0.1236 val_score: 0.9594 precision: 0.9593750238418579
+Confusion Matrix for Evaluation:
+[[66  6]
+ [ 1 55]]
+Confusion Matrix for Evaluation:
+[[64  8]
+ [ 2 54]]
+Confusion Matrix for Evaluation:
+[[60  9]
+ [ 2 57]]
+Confusion Matrix for Evaluation:
+[[61  5]
+ [ 1 61]]
+Confusion Matrix for Evaluation:
+[[57  4]
+ [ 3 64]]
+Confusion Matrix for Evaluation:
+[[57  6]
+ [ 1 64]]
+Confusion Matrix for Evaluation:
+[[67  3]
+ [ 0 58]]
+Confusion Matrix for Evaluation:
+[[61  2]
+ [ 1 64]]
+Confusion Matrix for Evaluation:
+[[56  1]
+ [ 2 69]]
+Confusion Matrix for Evaluation:
+[[63  7]
+ [ 3 55]]
+Confusion Matrix for Evaluation:
+[[63  3]
+ [ 3 59]]
+Confusion Matrix for Evaluation:
+[[63  6]
+ [ 0 59]]
+Confusion Matrix for Evaluation:
+[[53  1]
+ [ 2 72]]
+Confusion Matrix for Evaluation:
+[[65  0]
+ [ 1 62]]
+Confusion Matrix for Evaluation:
+[[5 0]
+ [0 7]]
+Epoch 0: train_loss: 0.1334 val_loss: 0.1243 val_score: 0.9568 precision: 0.9567708373069763
+Confusion Matrix for Evaluation:
+[[70  2]
+ [ 5 51]]
+Confusion Matrix for Evaluation:
+[[64  1]
+ [ 5 58]]
+Confusion Matrix for Evaluation:
+[[67  0]
+ [ 2 59]]
+Confusion Matrix for Evaluation:
+[[62  0]
+ [ 6 60]]
+Confusion Matrix for Evaluation:
+[[63  0]
+ [ 4 61]]
+Confusion Matrix for Evaluation:
+[[75  1]
+ [ 2 50]]
+Confusion Matrix for Evaluation:
+[[65  1]
+ [ 3 59]]
+Confusion Matrix for Evaluation:
+[[63  2]
+ [ 3 60]]
+Confusion Matrix for Evaluation:
+[[65  0]
+ [ 2 61]]
+Confusion Matrix for Evaluation:
+[[63  1]
+ [ 3 61]]
+Confusion Matrix for Evaluation:
+[[64  2]
+ [ 1 61]]
+Confusion Matrix for Evaluation:
+[[58  0]
+ [ 5 65]]
+Confusion Matrix for Evaluation:
+[[66  0]
+ [ 6 56]]
+Confusion Matrix for Evaluation:
+[[60  1]
+ [ 7 60]]
+Confusion Matrix for Evaluation:
+[[6 0]
+ [1 5]]
+Epoch 1: train_loss: 0.1145 val_loss: 0.1202 val_score: 0.9606 precision: 0.9605902433395386
